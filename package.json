@@ -8,11 +8,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "targets": {
-    "default": {
-      "distDir": "./docs"
-    }
-  },
   "devDependencies": {
     "@types/google.maps": "^3.45.6"
   },

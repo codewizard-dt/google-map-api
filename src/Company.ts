@@ -15,6 +15,7 @@ export class Company implements Mappable {
   constructor() {
     this.name = faker.company.companyName();
     this.catchPhrase = faker.company.catchPhrase();
+
     this.position = {
       lat: parseFloat(faker.address.latitude()), lng: parseFloat(faker.address.longitude())
     }
